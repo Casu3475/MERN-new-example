@@ -53,7 +53,7 @@ app.use("/auth", authRoutes);
 app.use("/users", userRoutes);
 app.use("/posts", postRoutes);
 
-// CONNECT TO MONGO DB
+// CONNECT TO MONGOOSE
 // const PORT = process.env.PORT || 6001;
 mongoose
   .connect(
